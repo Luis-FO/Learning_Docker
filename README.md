@@ -8,3 +8,9 @@ In the future I intend to reorganize them. I accept suggestions.
 
 1 - Images are "Ready Only". Containers on the other hand have an R/W layer. ;
 
+
+
+# LINKS
+
+	1 - https://docs.docker.com/reference/dockerfile/
+

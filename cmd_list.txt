@@ -21,3 +21,8 @@ Learned commands:
 	docker inspect ID
 	docker history ID
 	docker pull Image_name
+	
+Build:
+
+	docker build -t nomeImagem/app-node:Version DockerfileDirectory
+	

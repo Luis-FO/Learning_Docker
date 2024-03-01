@@ -1,0 +1,23 @@
+Learned commands:
+
+	docker run Image_name
+	docker ps
+	docker container ls
+	docker container ls -a
+	docker stop ID
+	docker start ID
+	docker exec -it  ID comando (i: iterative | t: terminal)
+	docker pause ID
+	docker unpause ID
+	docker stop -t=0 ID
+	docker rm ID
+	docker run -it ubuntu bash (Run in iterative mode)
+	docker run -d Image_name
+	docker rm ID --force
+	docker run -d -P Image_name
+	docker port ID
+	docker run -d -p LocalPort:ContainerPort Image_name
+	docker images
+	docker inspect ID
+	docker history ID
+	docker pull Image_name

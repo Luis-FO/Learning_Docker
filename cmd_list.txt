@@ -21,8 +21,15 @@ Learned commands:
 	docker inspect ID
 	docker history ID
 	docker pull Image_name
+	docker stop $(docker container ls -q)
 	
 Build:
 
 	docker build -t nomeImagem/app-node:Version DockerfileDirectory
 	
+Dockerhub:
+
+	docker login -u username
+	docker tag name/dir:version tagname/dir:version
+	docker push tagname/dir:version
+
